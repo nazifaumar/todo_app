@@ -1,0 +1,7 @@
+body {
+    background: rgba(255, 255, 255, 0.871) !important;
+    background-size:cover!important;
+}
+.form-control {
+    border-radius: 20px;
+}
