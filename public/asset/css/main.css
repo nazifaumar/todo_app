@@ -321,6 +321,15 @@ fieldset {
 }
 
 .btn-login{
+
     background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkwNC1udW5ueS0wMzIuanBn.jpg);
     outline-color: rgba(81, 81, 81, 0.622);
+}
+.card {
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkwNC1udW5ueS0wMzIuanBn.jpg');
+    background-size: cover;
+}
+
+.bayangan {
+    box-shadow: rgba(19, 17, 17, 0.514) 4px 4px 4px;
 }

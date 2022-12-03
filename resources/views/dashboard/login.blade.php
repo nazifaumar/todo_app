@@ -1,11 +1,5 @@
 @extends('dashboard.layout')
 @section('content')
-    <style>
-        .card {
-            background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkwNC1udW5ueS0wMzIuanBn.jpg');
-            background-size: cover;
-        }
-    </style>
     <div class="card border-0 rounded-0" >
         <form method="POST" class="user" action="{{ route('login.auth') }}">
             {{-- mengambil dan mengirim data input ke controller yg nantinya diambil oleh request $request --}}

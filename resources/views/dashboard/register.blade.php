@@ -1,16 +1,5 @@
 @extends('dashboard.layout')
 @section('content')
-    <style>
-        .card {
-            background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkwNC1udW5ueS0wMzIuanBn.jpg');
-            background-size: cover;
-        }
-
-        .bayangan {
-            box-shadow: rgba(19, 17, 17, 0.514) 4px 4px 4px;
-        }
-    </style>
-
     <div class="card border-0 rounded-0 ">
         <form method="POST" action="{{ route('register-input') }}">
             @if ($errors->any())
